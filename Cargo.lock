@@ -1338,6 +1338,16 @@ dependencies = [
 ]
 
 [[package]]
+name = "tutor-db"
+version = "0.1.0"
+dependencies = [
+ "actix-rt",
+ "actix-web",
+ "chrono",
+ "serde",
+]
+
+[[package]]
 name = "tutor-nodb"
 version = "0.1.0"
 dependencies = [
